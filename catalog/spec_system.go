@@ -8,4 +8,6 @@ type SystemSpec struct {
 	Owner string `json:"owner"`
 	// An entity reference to the domain that the system belongs to.
 	Domain string `json:"domain,omitempty"`
+	// The type of the system.
+	Type string `json:"type,omitempty"`
 }

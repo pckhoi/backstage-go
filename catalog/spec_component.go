@@ -20,4 +20,6 @@ type ComponentSpec struct {
 	ConsumesAPIs []string `json:"consumesApis,omitempty"`
 	// An array of entity references to the components and resources that the component depends on.
 	DependsOn []string `json:"dependsOn,omitempty"`
+	// An array of entity references to the components and resources that the component is a dependency of.
+	DependencyOf []string `json:"dependencyOf,omitempty"`
 }
